@@ -1,0 +1,43 @@
+@media screen and(min-width:260px){
+    .grillaMateando  {
+        display: grid;
+        grid-template-areas:
+            "titulo"
+            "foto1"
+            "foto2"
+            "ahora12"
+            "memes"
+            "messi1" 
+            "marado1"
+            "roman1"
+            "footer";
+            gap: 20px; img{max-width:80%;}
+        }
+    .nombre{font-size: small;}
+    }
+@media screen and(min-width:576px){
+    .grillaMateando  {
+        display: grid;
+        grid-template-areas:
+            "titulo titulo"
+            "foto1 foto2"
+            "ahora12 0"
+            "memes memes"
+            "messi1 marado1"
+            "1 roman1"
+            "footer footer";
+            gap: 20px; img{max-width: 70%;}
+        }}
+    
+
+@media screen and(min-width:900px){
+    .grillaMateando  {
+        display: grid;
+        grid-template-areas:
+            "titulo titulo titulo"
+            "foto1 ahora12 foto2"
+            "memes memes memes"
+            "messi1 roman1 marado1"
+            "footer footer footer";
+        gap: 20px; img{max-width: 60%;}
+    }}

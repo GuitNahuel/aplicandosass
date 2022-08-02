@@ -1,0 +1,73 @@
+
+.flexiando{display: flex;
+align-items: center;
+justify-content: center;}
+.letraT{font-size: medium;}
+
+.grillaMateando footer img{max-width: 100%;}
+
+.titulo {
+    grid-area: titulo;
+    background-color: $fondotitulos;
+    font-family: 'Josefin Sans', sans-serif;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.foto1 {
+    grid-area: foto1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.foto2 {
+    grid-area: foto2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ahora12 {
+    grid-area: ahora12;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.messi1 {
+    grid-area: messi1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.roman1 {
+    grid-area: roman1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.marado1 {
+    grid-area: marado1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.memes {
+    @include medidas(none, 60px, 5px, none);
+    grid-area: memes;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color:$fondotitulos;
+    color: black;
+    font-family: $miletraprincipal;
+    
+}

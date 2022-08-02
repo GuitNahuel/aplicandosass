@@ -1,0 +1,13 @@
+footer{
+    grid-area: footer;
+    background-color: $fondo;
+    font-family: $miletraprincipal;
+    flex-direction: row;
+    @extend .flexiando;
+    @include medidas(none, 125px, none, none);
+    ul{ 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        list-style-type: none;
+        padding: 20px;}}
