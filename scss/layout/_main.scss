@@ -58,7 +58,10 @@ justify-content: center;}
     justify-content: center;
     align-items: center;
 }
-
+.circle1 {
+    border-radius: 50%;
+    border: $fondo 5px solid;
+}
 .memes {
     @include medidas(none, 60px, 5px, none);
     grid-area: memes;

@@ -336,6 +336,11 @@
   align-items: center;
 }
 
+.circle1 {
+  border-radius: 50%;
+  border: #3F72AF 5px solid;
+}
+
 .memes {
   width: none;
   height: 60px;
